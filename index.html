@@ -1,44 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Acortador de URLs by XandoBit</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Acortador de URLs by XandoBit</title>
   </head>
+
   <body>
 
-      <header>
+    <header>
+      <div class="container">
         <h1>Acortador de URLs</h1>
-        <p>Static Page de la asignatura SYTW.</p>
-      </header>
+        <h2>Static Page de la asignatura SYTW.</h2>
 
-      <div id="banner">
-        <span id="logo"></span>
+        <section id="downloads">
+          <a href="https://github.com/XandoBit/webpageSYTW.github.io/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/XandoBit/webpageSYTW.github.io/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/XandoBit/webpageSYTW.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-        <a href="https://github.com/XandoBit/webpageSYTW.github.io" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/XandoBit/webpageSYTW.github.io/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/XandoBit/webpageSYTW.github.io/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
+    <div class="container">
+      <section id="main_content">
         <h1>
 <a name="sistemas-y-tecnolog%C3%ADas-web" class="anchor" href="#sistemas-y-tecnolog%C3%ADas-web"><span class="octicon octicon-link"></span></a>Sistemas y Tecnologías Web</h1>
 
@@ -53,21 +42,24 @@
 <p>-Expanda el ejemplo Acortador de URLs, para que admita además abreviaciones elegidas por el usuario.</p>
 
 <ol>
-<li>Descargamos la base del código del repositorio de Github:
+<li>
+<p>Descargamos la base del código del repositorio de Github:</p>
 
 <ul>
 <li><a href="https://github.com/crguezl/url_shortener_with_datamapper">Repositorio de GitHub</a></li>
 </ul>
 </li>
-<li>Descargamos Data_mapper con sqlite3 para el almacenamiento en la B.D:
+<li>
+<p>Descargamos Data_mapper con sqlite3 para el almacenamiento en la B.D:</p>
 
 <ul>
 <li><a href="https://github.com/crguezl/url_shortener_with_datamapper">Repositorio de GitHub</a></li>
 </ul>
 </li>
-<li>Desarrollamos la app para almacenar las urls a cada usuario junto a la corta y email.</li>
-<li>Desarrollamos el diseño de la app.</li>
-<li>Subimos la App a Heroku:
+<li><p>Desarrollamos la app para almacenar las urls a cada usuario junto a la corta y email.</p></li>
+<li><p>Desarrollamos el diseño de la app.</p></li>
+<li>
+<p>Subimos la App a Heroku:</p>
 
 <ul>
 <li><a href="https://github.com/crguezl/url_shortener_with_datamapper">App en Heroku</a></li>
@@ -92,12 +84,8 @@
 <li><a href="https://github.com/intridea/omniauth">Intridea Omniauth</a></li>
 </ul>
       </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/XandoBit">XandoBit</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
